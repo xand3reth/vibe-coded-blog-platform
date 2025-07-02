@@ -1,0 +1,83 @@
+// Text constants
+export const TEXTS = {
+  COMMON: {
+    NAME: 'Blog',
+    LOADING: 'Loading...',
+    ERROR: 'An error occurred.',
+    RETRY: 'Retry',
+    REFRESH: 'Refresh',
+  },
+  NAV: {
+    HOME: 'Home',
+    POSTS: 'Posts',
+    PROFILE: 'Profile',
+  },
+  AUTH: {
+    LOGIN: 'Login',
+    LOGOUT: 'Logout',
+    LOGIN_WITH_GOOGLE: 'Login with Google',
+    LOGIN_SUCCESS: 'Successfully logged in',
+    LOGIN_ERROR: 'Login failed',
+    LOGOUT_SUCCESS: 'Successfully logged out',
+    LOGOUT_ERROR: 'Logout failed',
+    LOGIN_TITLE: 'Welcome Back',
+    LOGIN_SUBTITLE: 'Sign in to continue',
+    LOGOUT_CONFIRM: 'Are you sure you want to log out?',
+  },
+  APP: {
+    NAME: 'Blog',
+    ERROR: 'Error',
+    LOADING: 'Loading...',
+  },
+  POSTS: {
+    TITLE: 'Posts',
+    READ_MORE: 'Read More',
+    PUBLISHED_AT: 'Published',
+    VIEWS: 'Views',
+    NO_POSTS: 'No posts available.',
+    LOADING: 'Loading posts...',
+    LOADING_MORE: 'Loading more posts...',
+  },
+  PROFILE: {
+    TITLE: 'Profile',
+    LOADING: 'Loading profile...',
+    ERROR: 'Failed to load profile',
+    EMAIL: 'Email',
+    MEMBER_SINCE: 'Member since',
+    ABOUT: 'About',
+  },
+  COMMENTS: {
+    TITLE: 'Comments',
+    SUBMIT: 'Submit',
+    LOGIN_REQUIRED: 'You need to log in to leave a comment.',
+    NO_COMMENTS: 'Be the first to leave a comment!',
+    DELETE: 'Delete',
+    EDIT: 'Edit',
+  },
+  FORMS: {
+    PLACEHOLDERS: {
+      COMMENT: 'Enter your comment...',
+      SEARCH: 'Enter search term...',
+    },
+  },
+  ERRORS: {
+    NETWORK: 'Please check your network connection.',
+    NOT_FOUND: 'Page not found.',
+    UNAUTHORIZED: 'Login is required.',
+    GENERAL: 'An error occurred. Please try again later.',
+  },
+  ACTIONS: {
+    CONFIRM: 'Confirm',
+    CANCEL: 'Cancel',
+    SAVE: 'Save',
+    DELETE: 'Delete',
+    EDIT: 'Edit',
+    SHARE: 'Share',
+    BACK: 'Back',
+  },
+  NAVIGATION: {
+    HOME: 'Home',
+    PROFILE: 'Profile',
+    LOGOUT: 'Logout',
+  },
+} as const 
